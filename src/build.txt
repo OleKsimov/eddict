@@ -1,0 +1,7 @@
+From "src/main/java" folder:
+
+javac ua/eddict/Eddict.java ua/eddict/DictionaryParser.java
+
+jar cvfe eddict.jar ua.eddict.Eddict ua/eddict/*.class
+
+java -jar eddict.jar
